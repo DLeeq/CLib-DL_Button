@@ -1,2 +1,2 @@
 # CLib-DL_Button
- A simple lib of software processing of a button for STM32 MCUs in the C language and HAL lib.
+ A simple event handling and button debounce library for STM32 microcontrollers in C and the HAL library.
