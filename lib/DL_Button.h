@@ -3,7 +3,9 @@
 
 #include "stm32f1xx_hal.h"  //Подключение библиотеки HAL, соответствующей вашему МК
 
-typedef enum {DL_BTN_PRESS, DL_BTN_RELEASE, DL_BTN_PRESSING, DL_BTN_RELEASING, DL_BTN_TOGGLE, DL_BTN_DOUBLECLICK, DL_BTN_HOLD} DL_BtnEvent;  //Перечисление событий кнопки
+typedef enum {DL_BTN_PRESS, DL_BTN_RELEASE, DL_BTN_PRESSING, DL_BTN_RELEASING, DL_BTN_TOGGLE,
+			  DL_BTN_DOUBLECLICK, DL_BTN_HOLD} DL_BtnEvent;  //Перечисление событий кнопки
+
 typedef enum {DL_BTN_LOW, DL_BTN_HIGH} DL_BtnLevel;  //Перечисление уровней кнопки
 
 typedef struct
